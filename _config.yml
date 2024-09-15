@@ -21,7 +21,7 @@ repository               : "suwesh/suwesh.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "Profile_pic.jpg"
+  avatar           : "Profile_pic.png"
   name             : "Suwesh Prasad Sah"
   pronouns         : # example: "she/her"  
   bio              : "Computer Science Engineer"
