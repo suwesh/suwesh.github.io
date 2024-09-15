@@ -6,7 +6,7 @@
 
 main:
   - title: "Resume"
-    url: files/Suwesh_resume.pdf
+    url: /files/Suwesh_resume.pdf
 
   #- title: "Talks"
   #  url: /talks/    
