@@ -1,6 +1,6 @@
 ---
 title: "Smart Parking Lot Dataset"
-excerpt: "A smart parking lot usage data collected on ThingSpeak IoT cloud platform"
+excerpt: "A smart parking lot usage data collected on ThingSpeak IoT cloud platform<br>"
 collection: portfolio
 ---
 
