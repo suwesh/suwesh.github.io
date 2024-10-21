@@ -1,6 +1,6 @@
 ---
 title: "Parking Forecasting System"
-excerpt: "An IoT based Smart Parking System with Real-time slot allocation and slot availability prediction<br/><img src='/images/iot-dataset-cover.png'>"
+excerpt: "An IoT based Smart Parking System with Real-time slot allocation and slot availability prediction<br/><img src='/images/iotsps-dataset-cover.png'>"
 collection: portfolio
 ---
 
