@@ -2,7 +2,7 @@
 title: "Parallel Neural Computing for Scene Understanding from LiDAR Perception in Autonomous Racing"
 collection: research
 permalink: /research/parallelneuralcomputing
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
+excerpt: 'Autonomous Racing, Computer Vision, Image Segmentation, Deep Learning, LiDAR Perception, Accelerated Computing'
 date: 2024-10-01
 venue: 'Journal 1'
 slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
