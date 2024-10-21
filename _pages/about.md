@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm a Computer Science and Engineering graduate from National Institute of Technology Rourkela, with a strong focus on building intelligent and autonomous systems and data engineering solutions. 
+I'm a Computer Science and Engineering graduate from National Institute of Technology Rourkela, with a strong focus on building intelligent and autonomous systems and data engineering solutions. At Hero Hosuing Finance, I develop AI/ML solutions on AWS, working on projects such as building a post call analytics pipeline, Intelligent Document Processing using OCR and Transformers, and managing the development of a RAG based LLM chatbot. 
 
 A data-driven personal website
 ======
