@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm a Computer Science and Engineering graduate from National Institute of Technology Rourkela. 
+I'm a Computer Science and Engineering graduate from National Institute of Technology Rourkela, with a strong focus on building intelligent and autonomous systems and data engineering solutions. 
 
 A data-driven personal website
 ======
