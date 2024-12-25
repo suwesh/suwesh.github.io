@@ -3,7 +3,7 @@ title: "Parallel Neural Computing for Scene Understanding from LiDAR Perception 
 collection: research
 permalink: /research/parallelneuralcomputing
 excerpt: "Autonomous Racing, Computer Vision, Image Segmentation, Deep Learning, LiDAR Perception, Accelerated Computing<br/><img src='/images/ppn-cover.png'>"
-date: 2024-10-01
+date: 2024-12-21
 venue: '12th International Conference on Intelligent Systems and Embedded Design'
 
 paperurl: 'https://arxiv.org/abs/2412.18165'
