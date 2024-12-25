@@ -6,7 +6,7 @@ excerpt: "Autonomous Racing, Computer Vision, Image Segmentation, Deep Learning,
 date: 2024-10-01
 venue: '12th International Conference on Intelligent Systems and Embedded Design'
 
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
+paperurl: 'https://arxiv.org/abs/2412.18165'
 citation: 'Suwesh Prasad Sah &quot;Parallel Neural Computing for Scene Understanding from LiDAR Perception in Autonomous Racing.&quot; <i>IEEE/ISED International Conference on Intelligent Systems and Embedded Design, 2024</i>'
 ---
 
