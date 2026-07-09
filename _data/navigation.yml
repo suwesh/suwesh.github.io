@@ -22,6 +22,9 @@ main:
     
   - title: "Research"
     url: /research/
+
+  - title: "⚔️ Engineering War Stories"
+    url: /engineering_war_stories/
     
   #- title: "Guide"
   #  url: /markdown/
