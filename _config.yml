@@ -275,7 +275,7 @@ defaults:
       share: true
       comment: true
   # _engineering_war_stories
-  - scopr:
+  - scope:
       path: ""
       type: engineering_war_stories
     values:
