@@ -7,6 +7,6 @@ author_profile: true
 An engineering logbook of the battles behind systems I've built—not just successful deployments, but also prototypes, failures, infrastructure work, debugging sessions, and performance optimizations that shaped how I think as an engineer.
 {% include base_path %}
 
-{% for post in site.engineering_war_stories %}
+{% for post in site.engineering_war_stories reversed %}
   {% include archive-single.html %}
 {% endfor %}
