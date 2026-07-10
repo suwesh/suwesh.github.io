@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm a Computer Science and Engineering graduate from National Institute of Technology Rourkela, with a strong focus on building intelligent and autonomous systems and data engineering solutions. At Hero Housing Finance, I work on developing cloud-based AI applications and automation solutions, including projects such as building a post-call analytics pipeline, implementation of test automation framework for Salesforce Org, and development of a Retrieval-Augmented Generation (RAG) pipeline–based LLM application. 
+I'm a Computer Science and Engineering graduate from National Institute of Technology Rourkela, with a strong focus on building intelligent and autonomous systems and data engineering solutions. At Hero Housing Finance, I work on developing cloud-based AI applications and automation solutions, including projects such as building a post-call analytics pipeline, implementation of test automation framework for Salesforce Org, and development of a Retrieval-Augmented Generation (RAG) pipeline–based LLM application. - add GUI automation via CUA also
 
 My Bachelor Thesis implemented a Computer Vision project for Autonomous Driving and proposed an architecture to enable hardware-level parallelism for parallel perception of the environment from multiple sensor data, hence leading to quicker scene understanding and decision making ability for high speed autonomous systems. 
 
