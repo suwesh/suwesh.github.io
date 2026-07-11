@@ -1,0 +1,8 @@
+---
+title: "Story 003 - When an OS patching broke production"
+date: 2026-05-21
+permalink: /engineering-war-stories/003
+excerpt: "A break-glass temporary recovery action to bring the server back online."
+collection: engineering_war_stories
+---
+
