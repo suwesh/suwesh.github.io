@@ -8,6 +8,7 @@ redirect_from:
 ---
 
 I'm a Computer Science and Engineering graduate from the National Institute of Technology Rourkela, focused on the engineering of intelligent and autonomous computing systems that can turn knowledge and reasoning into executable work.
+
 At Hero Housing Finance, I work on building AI systems and intelligent automation across knowledge retrieval, agentic tool use, enterprise software, GPU-accelerated inference, and cloud infrastructure. My work includes building production LLM applications and assistants, deploying MCP-based architectures to connect agents with enterprise APIs and data sources, and evolving monolithic systems into service-oriented architecture. My work increasingly focuses on how intelligent systems connect knowledge, reasoning, tools, and computation to perform useful work.
 
 My Bachelor's thesis implemented a Computer Vision project for Autonomous Driving. It proposed an architecture to enable hardware-level parallelism for parallel perception of the environment from multiple sensor data, hence leading to quicker scene understanding and decision-making ability for high-speed autonomous systems. 
