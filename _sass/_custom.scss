@@ -1,7 +1,6 @@
-/* Dark Mode Theme */
 body.dark-theme {
-  background-color: #1a1a1a !important;
-  color: #e0e0e0 !important;
+  background-color: #1c1c1e !important;
+  color: #e5e5ea !important;
 }
 
 body.dark-theme #main,
@@ -11,8 +10,8 @@ body.dark-theme .page__footer,
 body.dark-theme .archive__item,
 body.dark-theme .page__content,
 body.dark-theme .author__urls-wrapper {
-  background-color: #1a1a1a !important;
-  color: #e0e0e0 !important;
+  background-color: #1c1c1e !important;
+  color: #e5e5ea !important;
 }
 
 body.dark-theme a, 
@@ -25,19 +24,19 @@ body.dark-theme pre,
 body.dark-theme code, 
 body.dark-theme table, 
 body.dark-theme blockquote {
-  background-color: #2b2b2b !important;
-  color: #f1f1f1 !important;
-  border-color: #444 !important;
+  background-color: #2c2c2e !important;
+  color: #f2f2f7 !important;
+  border-color: #3a3a3c !important;
 }
 
 body.dark-theme .author__bio, 
 body.dark-theme .author__location, 
 body.dark-theme .author__stats {
-  color: #b0b0b0 !important;
+  color: #aeaeb2 !important;
 }
 
 body.dark-theme hr, 
 body.dark-theme .page__footer, 
 body.dark-theme .masthead {
-  border-color: #333333 !important;
+  border-color: #2c2c2e !important;
 }
