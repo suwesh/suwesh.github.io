@@ -1,58 +1,43 @@
-/* Dark Mode Override for Academic Pages */
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: #1a1a1a !important;
-    color: #e0e0e0 !important;
-  }
+/* Dark Mode Theme */
+body.dark-theme {
+  background-color: #1a1a1a !important;
+  color: #e0e0e0 !important;
+}
 
-  /* Main container and sidebar background */
-  #main,
-  .sidebar,
-  .masthead,
-  .page__footer {
-    background-color: #1a1a1a !important;
-    color: #e0e0e0 !important;
-  }
+body.dark-theme #main,
+body.dark-theme .sidebar,
+body.dark-theme .masthead,
+body.dark-theme .page__footer,
+body.dark-theme .archive__item,
+body.dark-theme .page__content,
+body.dark-theme .author__urls-wrapper {
+  background-color: #1a1a1a !important;
+  color: #e0e0e0 !important;
+}
 
-  /* Links and brand color */
-  a, 
-  .site-title {
-    color: #64b5f6 !important;
-  }
+body.dark-theme a, 
+body.dark-theme .site-title,
+body.dark-theme .visible-links a {
+  color: #64b5f6 !important;
+}
 
-  a:hover {
-    color: #90caf9 !important;
-  }
+body.dark-theme pre, 
+body.dark-theme code, 
+body.dark-theme table, 
+body.dark-theme blockquote {
+  background-color: #2b2b2b !important;
+  color: #f1f1f1 !important;
+  border-color: #444 !important;
+}
 
-  /* Navigation Bar Links */
-  .visible-links a {
-    color: #e0e0e0 !important;
-  }
+body.dark-theme .author__bio, 
+body.dark-theme .author__location, 
+body.dark-theme .author__stats {
+  color: #b0b0b0 !important;
+}
 
-  /* Cards, Archive items & Containers */
-  .archive__item,
-  .page__content,
-  .author__urls-wrapper {
-    background-color: #242424 !important;
-    color: #e0e0e0 !important;
-  }
-
-  /* Tables, Code blocks, and Blockquotes */
-  pre, code, table, blockquote {
-    background-color: #2b2b2b !important;
-    color: #f1f1f1 !important;
-    border-color: #444 !important;
-  }
-
-  /* Sidebar Author Profile text */
-  .author__bio, 
-  .author__location, 
-  .author__stats {
-    color: #b0b0b0 !important;
-  }
-
-  /* Borders and Dividers */
-  hr, .page__footer, .masthead {
-    border-color: #333333 !important;
-  }
+body.dark-theme hr, 
+body.dark-theme .page__footer, 
+body.dark-theme .masthead {
+  border-color: #333333 !important;
 }
