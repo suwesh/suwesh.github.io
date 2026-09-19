@@ -10,10 +10,13 @@ Harvard Architecture is a computer architecture with seperate memory and pathway
 Instruction Set
 
 -Memory Access Instructions
+```text
 1. Load word-LW: LD ws, offset(rs1) - ws Mem32[rs1+rs2]
 2. Store word-SW: ST rs2, offset(rs1) Mem32[rs1+offset]=rs2
+```
 
 -Data Processing Insructions
+```text
 1. Add: ADD ws,rs1,rs2 - ws = rs1+rs2
 2. Subtract: SUB ws,rs1,rs2 - ws = rss1-rs2
 3. Invert: INV ws,rs1 - ws = !rs1
@@ -22,9 +25,12 @@ Instruction Set
 6. Bitwise AND: AND ws,rs1,rs2 - ws = rs1&rs2
 7. Bitwise OR: OR ws,rs1,rs2 - ws = rs1|rs2
 8. Set on less than: SLT ws,rs1,rs2 - if rs1<rs2 then ws = 1 else ws = 0
+```
                                                  
 -Control Flow Instructions
+```text
 1. Branch on equal: BEQ rs1,rs2,offset - branch to (pc+2+(offset<<1))when rs1=rs2
 2. Branch not equal: BNE rs1,rs2,offset - branch to (pc+2+(offset<<1))when rs1!=rs2
 3. Jump: JMP offset - Jump to {pc[30:26],(offset<<1)}
+```
 
