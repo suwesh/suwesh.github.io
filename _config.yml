@@ -358,5 +358,3 @@ compress_html:
   ignore:
     envs: development
 
-# Options: "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-site_skin: "neon"
