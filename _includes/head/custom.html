@@ -29,4 +29,71 @@
 <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
+<!-- Dark Mode Styles and Script -->
+<style>
+  body.dark-theme {
+    background-color: #1c1c1e !important;
+    color: #e5e5ea !important;
+  }
+
+  body.dark-theme #main,
+  body.dark-theme .sidebar,
+  body.dark-theme .masthead,
+  body.dark-theme .page__footer,
+  body.dark-theme .archive__item,
+  body.dark-theme .page__content,
+  body.dark-theme .author__urls-wrapper {
+    background-color: #1c1c1e !important;
+    color: #e5e5ea !important;
+  }
+
+  body.dark-theme a, 
+  body.dark-theme .site-title,
+  body.dark-theme .visible-links a {
+    color: #64b5f6 !important;
+  }
+
+  body.dark-theme pre, 
+  body.dark-theme code, 
+  body.dark-theme table, 
+  body.dark-theme blockquote {
+    background-color: #2c2c2e !important;
+    color: #f2f2f7 !important;
+    border-color: #3a3a3c !important;
+  }
+
+  body.dark-theme .author__bio, 
+  body.dark-theme .author__location, 
+  body.dark-theme .author__stats {
+    color: #aeaeb2 !important;
+  }
+
+  body.dark-theme hr, 
+  body.dark-theme .page__footer, 
+  body.dark-theme .masthead {
+    border-color: #2c2c2e !important;
+  }
+</style>
+
+<script>
+  // Apply saved theme state immediately before DOM loads to prevent visual blink
+  if (localStorage.getItem("theme") === "dark") {
+    document.documentElement.classList.add("dark-theme");
+    document.addEventListener("DOMContentLoaded", function() {
+      document.body.classList.add("dark-theme");
+      var btn = document.getElementById("theme-toggle");
+      if (btn) btn.textContent = "☀️";
+    });
+  }
+
+  function toggleDarkMode() {
+    var body = document.body;
+    body.classList.toggle("dark-theme");
+    var isDark = body.classList.contains("dark-theme");
+    localStorage.setItem("theme", isDark ? "dark" : "light");
+    var btn = document.getElementById("theme-toggle");
+    if (btn) btn.textContent = isDark ? "☀️" : "🌙";
+  }
+</script>
+
 <!-- end custom head snippets -->
