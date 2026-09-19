@@ -40,6 +40,13 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
-//skins
-@import "minimal-mistakes/skins/neon"; // <-- ADD THIS LINE HERE
+/* Safe Color Overrides for "Neon" Look */
+$background-color: #111111;
+$text-color: #e0e0e0;
+$primary-color: #00e676;
+$link-color: #00e676;
+$border-color: #333333;
+$masthead-link-color: #00e676;
+$masthead-link-color-hover: #ffffff;
+
 @import "minimal-mistakes";
